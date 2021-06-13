@@ -13,6 +13,10 @@ body {
   margin: auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -471,8 +475,11 @@ template {
   .container {
     max-width: 560px;
   }
-  .search {
-    width: 340px;
+  .navbar-top__search, .navbar-top__user {
+    display: none;
+  }
+  .navbar-bot {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
