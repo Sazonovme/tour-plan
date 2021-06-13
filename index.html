@@ -1,39 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Tour Plan - Hotel Booking</title>
 
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Best Tour Plan - Hotel Booking</title>
-</head>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&family=Nunito:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-   <header class="header">
+  <body>
+    <header class="header">
       <div class="container">
-         <div class="header-top">
+        <div class="header-top">
+          <a href="#" class="logo">
+            <img
+              src="img/icon/horizontal-logo.svg"
+              alt="Logo: Best Tour Plan"
+              class="logo__img"
+            />
+          </a>
 
-            <a href="#" class="logo">
-               <img src="img/icon/horizontal-logo.svg" alt="Logo: Best Tour Plan" class="logo__img">
-            </a>
+          <form action="" class="search">
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Search Location"
+            />
+            <button class="search__button">
+              <img src="img/icon/search.svg" alt="Icon: Search" />
+            </button>
+          </form>
 
-            <form action="" class="search">
-               <input type="text" class="search__input" placeholder="Search Location">
-               <button class="search__button">
-                  <img src="img/icon/search.svg" alt="Icon: Search">
-               </button>
-            </form>
+          <a href="#" class="user">
+            <img
+              src="img/avatar.jfif"
+              alt="Img: User Avatar"
+              class="user__avatar"
+            />
+            <span class="user__name">Nathan</span>
+          </a>
+        </div>
+        <!-- /.header-top -->
 
-               <a href="#" class="user">
-                  <img src="img/avatar.jfif" alt="Img: User Avatar" class="user__avatar">
-                  <span class="user__name">Nathan</span>
-               </a>
-
-         </div>
-         <!-- /.header-top -->
+        <nav class="nav-menu">
+          <a href="#" class="nav-menu__item">All Deals</a>
+          <a href="#" class="nav-menu__item">Hotels</a>
+          <a href="#" class="nav-menu__item">Activities</a>
+          <a href="#" class="nav-menu__item">Hotel Day Packages</a>
+          <a href="#" class="nav-menu__item">Restaurants</a>
+          <a href="#" class="nav-menu__item">Events</a>
+          <a href="#" class="nav-menu__item">Rodrigues</a>
+        </nav>
       </div>
       <!-- /.container -->
-   </header>
-</body>
-
+    </header>
+  </body>
 </html>
