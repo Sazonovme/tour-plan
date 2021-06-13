@@ -451,4 +451,28 @@ template {
   text-transform: uppercase;
   font-size: 14px;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+  .navbar-top__search {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+  .search {
+    width: 340px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
