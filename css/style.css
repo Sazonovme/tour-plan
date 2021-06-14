@@ -491,6 +491,69 @@ template {
   color: #333333;
 }
 
+.hotel-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 23px 0 20px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hotel-info__name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.hotel-info__description {
+  font-size: 12px;
+}
+
+.hotel-info__offer {
+  font-size: 10px;
+  padding: 4px 9px;
+  background-color: #ec1f46;
+  color: #fff;
+  width: 70px;
+  border-radius: 3px;
+}
+
+.rating {
+  width: 65px;
+  height: 45px;
+  background-color: #ec1f46;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4px;
+}
+
+.rating__text {
+  font-size: 8px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.rating__num {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
