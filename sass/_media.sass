@@ -7,7 +7,17 @@
     .navbar-top
         &__search
             margin-left: auto
-@media (max-width: 768px)
+    .search
+        &__input
+            width: 320px
+    .navbar-menu
+        &__item
+            font-size: 12px
+    .logo
+        &__img
+            width: 132px
+
+@media (max-width: 768px) // Header-top and bot убираются, появляется кнопка-бургер
     .container
         max-width: 560px
     .navbar-top
@@ -15,3 +25,18 @@
             display: none
     .navbar-bot
         display: none
+    .burger
+        padding: 0
+        margin: 0
+        display: flex
+        height: 11px
+        width: 16px
+        flex-direction: column
+        justify-content: space-between
+        border: none
+        background-color: $light
+        cursor: pointer
+        &__line
+            width: 16px
+            height: 1px
+            background-color: $text-color
