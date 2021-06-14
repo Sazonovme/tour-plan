@@ -6,6 +6,7 @@
 body {
   font-family: 'Mulish';
   font-weight: normal;
+  background-color: #f5fafe;
 }
 
 .container {
@@ -360,6 +361,10 @@ template {
   display: none;
 }
 
+.navbar {
+  background-color: #fff;
+}
+
 .navbar-top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -458,6 +463,32 @@ template {
 .user__name {
   color: #333333;
   font-size: 14px;
+}
+
+.breadcrumb-list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px 0;
+  margin: 0;
+}
+
+.breadcrumb-list__item {
+  font-size: 10px;
+}
+
+.breadcrumb-list__item:not(:last-child)::after {
+  content: '/';
+  margin-right: 5px;
+}
+
+.breadcrumb-list__link {
+  text-decoration: none;
+  color: #333333;
 }
 
 @media (max-width: 1200px) {
