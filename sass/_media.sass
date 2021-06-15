@@ -20,6 +20,7 @@
 @media (max-width: 768px) // Header-top and bot убираются, появляется кнопка-бургер
     .container
         max-width: 560px
+        width: 92%
     .navbar-top
         &__search,&__user
             display: none
@@ -40,3 +41,21 @@
             width: 16px
             height: 1px
             background-color: $text-color
+    .hotel
+        &-info
+            &-wrapper
+                justify-content: space-between
+                width: 100%
+            &__left
+                display: none
+            &__offer
+                order: -1
+                margin-left: 0
+            &__right
+                display: flex
+                flex-wrap: wrap
+            &__name
+                flex-basis: 100%
+                margin-top: 14px
+    .stars
+        flex-basis: auto
