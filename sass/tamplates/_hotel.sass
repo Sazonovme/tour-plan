@@ -9,13 +9,29 @@
             font-weight: bold
         &__description
             font-size: 12px
+            margin: 0
+            margin-top: 4px
+            color: $text-color
         &__offer
-            font-size: 10px
-            padding: 4px 9px
-            background-color: $primary
-            color: $light
-            width: 70px
-            border-radius: 3px
+            margin-left: 14px
+        &-wrapper
+            display: flex
+            flex-wrap: wrap
+            align-items: center
+        &__stars
+            margin-bottom: 4px
+.offer
+    font-size: 10px
+    padding: 4px 9px
+    background-color: $primary
+    color: $light
+    width: 70px
+    height: 20px
+    border-radius: 3px
+    display: flex
+    align-items: center
+.stars
+    flex-basis: 100%
 .rating
     width: 65px
     height: 45px
@@ -33,3 +49,5 @@
         font-size: 14px
         font-weight: bold
         color: $light
+    &__down
+        font-size: 10px
