@@ -932,6 +932,9 @@ template {
   .map {
     width: 340px;
   }
+  .newsletter-wrapper {
+    width: 700px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1020,6 +1023,18 @@ template {
   }
   .map {
     width: 279px;
+  }
+  .newsletter-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 560px;
+    width: 92%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 160px;
   }
 }
 /*# sourceMappingURL=style.css.map */
