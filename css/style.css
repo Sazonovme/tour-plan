@@ -1007,22 +1007,25 @@ template {
   }
   .hotel-block-right__booking {
     margin-bottom: 20px;
+    width: 100%;
+  }
+  .hotel-block__slider {
+    width: 100%;
   }
   .stars {
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
   }
-  .slider {
-    width: 279px;
-  }
   .swiper-container {
     height: 179px;
   }
-  .booking {
-    width: 279px;
+  .swiper-slider__img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .map {
-    width: 279px;
+    width: 100%;
   }
   .newsletter-wrapper {
     -webkit-box-orient: vertical;
