@@ -1,6 +1,12 @@
 @media (max-width: 1200px)
     .container
         max-width: 960px
+    .slider
+        width: 600px
+    .swiper
+        &-slider
+            &__img
+                height: 100%
 @media (max-width: 992px)
     .container
         max-width: 700px
@@ -16,8 +22,26 @@
     .logo
         &__img
             width: 132px
-
-@media (max-width: 768px) // Header-top and bot убираются, появляется кнопка-бургер
+    .slider
+        width: 700px
+    .swiper
+        &-slider
+            &__img
+                height: 100%
+    .hotel
+        &-block
+            flex-direction: column
+            padding-bottom: 60px
+            &-right
+                margin-left: 0
+                flex-direction: row
+            &__slider
+                margin-bottom: 30px
+    .booking
+        width: 340px
+    .map
+        width: 340px
+@media (max-width: 768px)
     .container
         max-width: 560px
         width: 92%
@@ -57,5 +81,19 @@
             &__name
                 flex-basis: 100%
                 margin-top: 14px
+        &-block
+            &-right
+                flex-direction: column
+                &__booking
+                    margin-bottom: 20px
     .stars
         flex-basis: auto
+    .slider
+        width: 279px
+    .swiper
+        &-container
+            height: 179px
+    .booking
+        width: 279px
+    .map
+        width: 279px
