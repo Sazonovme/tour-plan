@@ -1,0 +1,88 @@
+.reviews
+    display: flex
+    justify-content: center
+    padding: 40px 0 70px 0
+    &__tittle
+        font-size: 36px
+        font-weight: bold
+        text-align: center
+        text-transform: uppercase
+        color: $text-color
+        margin-bottom: 70px
+    &-slider
+        &__item
+            position: relative
+            width: 730px
+            height: 280px
+            display: flex
+            margin: auto
+            flex-direction: column
+            align-items: center
+            background-color: $light
+            border-radius: 8px
+            margin-top: 45px
+            &:before
+                content: ''
+                background-image: url(../img/icon/quote-left.svg)
+                background-repeat: no-repeat
+                width: 70px
+                height: 47.6px
+                position: absolute
+                top: 12px
+                left: 64px
+            &::after
+                content: ''
+                background-image: url(../img/icon/quote-right.svg)
+                background-repeat: no-repeat
+                width: 70px
+                height: 47.6px
+                position: absolute
+                bottom: 113px
+                right: 60px
+        &__user
+            display: flex
+            flex-direction: column
+            align-items: center
+            margin-top: -45px
+            margin-bottom: 30px
+        &__img
+            width: 90px
+            height: 90px
+            border-radius: 50%
+            object-fit: cover
+            margin-bottom: 9px
+        &__name
+            font-size: 12px
+            font-weight: bold
+            color: $primary
+            margin-bottom: 10px
+        &__date
+            font-size: 10px
+            color: #000000
+        &__text
+            font-size: 12px
+            color: $text-color
+            line-height: 1.6
+            text-align: justify
+            width: 537px
+            margin: 0
+            z-index: 1
+        &__button
+            width: 30px
+            height: 30px
+            background-color: transparent
+            z-index: 99
+            position: absolute
+            top: 50%
+            margin-top: -15px
+            border: none
+            &--next
+                right: 18px
+                background-image: url(../img/icon/reviews-right.svg)
+                background-repeat: no-repeat
+                background-position: center
+            &--prev
+                left: 18px
+                background-image: url(../img/icon/reviews-left.svg)
+                background-repeat: no-repeat
+                background-position: center
