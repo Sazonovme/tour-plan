@@ -1010,9 +1010,7 @@ template {
 }
 
 .activity {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   padding: 60px 0 100px 0;
 }
 
@@ -1046,36 +1044,19 @@ template {
   content: '';
   background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
 }
 
-.activity__item--1 {
-  background-image: url(../img/activity-item1.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.activity__item--2 {
-  background-image: url(../img/activity-item2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.activity__item--3 {
-  background-image: url(../img/activity-item3.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.activity__item--4 {
-  background-image: url(../img/activity-item4.png);
-  background-repeat: no-repeat;
-  background-position: center;
+.activity__img {
+  max-width: none;
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  left: -75px;
+  bottom: 0;
 }
 
 .activity-block {
@@ -1085,7 +1066,6 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 1110px;
 }
 
 .activity__button {
@@ -1125,6 +1105,10 @@ template {
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .activity__item {
+    width: 225px;
+    height: 225px;
   }
 }
 
@@ -1190,6 +1174,24 @@ template {
   }
   .reviews-slider__text {
     width: 455px;
+  }
+  .activity {
+    padding: 60px 0 80px 0;
+  }
+  .activity-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .activity__item {
+    width: 339px;
+    height: 255px;
+    margin-bottom: 20px;
+  }
+  .activity__img {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    bottom: 0;
   }
 }
 
@@ -1308,6 +1310,19 @@ template {
   }
   .reviews-slider__text {
     width: 280px;
+  }
+  .activity__item {
+    width: 400px;
+    height: 255px;
+  }
+  .activity-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .activity__img {
+    width: 100%;
+    left: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
