@@ -44,6 +44,17 @@
     .newsletter
         &-wrapper
             width: 700px
+    .reviews
+        &__tittle
+            font-size: 30px
+        &-slider
+            &__item
+                width: 580px
+                height: 300px
+                &::before, &::after
+                    background-image: none
+            &__text
+                width: 455px
 @media (max-width: 768px)
     .container
         max-width: 560px
@@ -111,3 +122,15 @@
             width: 92%
             align-items: flex-start
             height: 160px
+    .reviews
+        &__tittle
+            font-size: 22px
+        &-slider
+            &__item
+                width: 350px
+                height: 370px
+            &__text
+                width: 280px
+            &__button
+                &--next
+                &--prev

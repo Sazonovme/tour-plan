@@ -1073,6 +1073,19 @@ template {
   .newsletter-wrapper {
     width: 700px;
   }
+  .reviews__tittle {
+    font-size: 30px;
+  }
+  .reviews-slider__item {
+    width: 580px;
+    height: 300px;
+  }
+  .reviews-slider__item::before, .reviews-slider__item::after {
+    background-image: none;
+  }
+  .reviews-slider__text {
+    width: 455px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1180,6 +1193,16 @@ template {
         -ms-flex-align: start;
             align-items: flex-start;
     height: 160px;
+  }
+  .reviews__tittle {
+    font-size: 22px;
+  }
+  .reviews-slider__item {
+    width: 350px;
+    height: 370px;
+  }
+  .reviews-slider__text {
+    width: 280px;
   }
 }
 /*# sourceMappingURL=style.css.map */
