@@ -1009,6 +1009,111 @@ template {
   background-position: center;
 }
 
+.activity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px 0 100px 0;
+}
+
+.activity__tittle {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.activity__item {
+  width: 255px;
+  height: 255px;
+  border-radius: 6px;
+  position: relative;
+  overflow: hidden;
+  padding: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.activity__item::before {
+  content: '';
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.activity__item--1 {
+  background-image: url(../img/activity-item1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.activity__item--2 {
+  background-image: url(../img/activity-item2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.activity__item--3 {
+  background-image: url(../img/activity-item3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.activity__item--4 {
+  background-image: url(../img/activity-item4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.activity-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1110px;
+}
+
+.activity__button {
+  border: none;
+  font-size: 12px;
+  padding: 7px 21px;
+  background-color: #ec1f46;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.activity__name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  margin-bottom: 18px;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
