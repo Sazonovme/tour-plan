@@ -1040,6 +1040,16 @@ template {
           justify-content: flex-end;
 }
 
+.activity__item::before {
+  content: '';
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .activity__img {
   max-width: none;
   max-height: 100%;
