@@ -1,0 +1,94 @@
+.footer
+    background-color: $dark
+    padding-top: 108px
+    padding-bottom: 46px
+    color: $footer-item
+    font-weight: regular
+    font-size: 14px
+    line-height: 160%
+    &-wrapper
+        display: grid
+        grid-template-columns: repeat(4, minmax(250px, 1fr))
+        grid-auto-rows: minmax(min-content, 40px)
+        gap: 20px
+    &__tittle
+        text-transform: uppercase
+        font-weight: bold
+        color: $light
+        font-size: 18px
+        margin: 0 0 16px 0
+        &--inline
+            margin: 0 41px 0 0
+    &__text
+        margin: 25px 0 20px 0
+    &__ul
+        padding: 0
+        margin: 0
+        list-style: none
+    &__item
+        &--mb
+            margin-bottom: 20px
+    &__link
+        text-decoration: none
+        color: $footer-item
+    &__logo
+        grid-row: 1 / 3
+    &__categories
+        grid-row: 1 / 4
+    &__social
+        &-network
+            grid-row: 2 / 4
+            grid-column: 3 / 5
+            display: flex
+            align-items: start
+        &-link
+            min-width: 83px
+            display: flex
+            justify-content: space-between
+            align-items: center
+    &__contact
+        &-details
+            grid-column: span 2
+            max-width: 493px
+    &__icon
+        margin-right: 20px
+        &-wrap
+            display: flex
+            align-items: start
+    &__form
+        grid-column: span 2
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-wrap: wrap
+    &__input
+        padding: 0 23px
+        height: 50px
+        border-radius: 4px
+        border: none
+        margin-bottom: 15px
+        flex-basis: 48%
+    &__message
+        flex-basis: 100%
+        padding: 18px 23px
+        border-radius: 4px
+        border: none
+        margin-bottom: 20px
+    &__button
+        min-width: 160px
+        min-height: 50px
+        padding: 18px 65px
+        border: none
+        background-color: $primary
+        border-radius: 4px
+        color: $light
+        font-style: normal
+        font-weight: bold
+        font-size: 12px
+        line-height: 15px
+    &__info
+        font-style: normal
+        font-weight: bold
+        font-size: 12px
+        line-height: 15px
+        color: #E0E0E0
