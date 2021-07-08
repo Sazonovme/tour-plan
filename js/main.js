@@ -15,3 +15,8 @@ const reviewsSlider = new Swiper('.reviews-slider  ', {
     prevEl: '.reviews-slider__button--prev',
   },
 });
+
+var menuButton = document.querySelector('.burger');
+menuButton.addEventListener('click', () => {
+  document.querySelector('.navbar-bot').classList.toggle('navbar-bot--active');
+});
