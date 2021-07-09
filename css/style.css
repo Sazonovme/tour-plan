@@ -1628,10 +1628,13 @@ template {
   }
   .reviews-slider__item {
     width: 95%;
-    height: 340px;
+    height: -webkit-min-content;
+    height: -moz-min-content;
+    height: min-content;
   }
   .reviews-slider__text {
     width: 80%;
+    padding-bottom: 30px;
   }
   .footer-wrapper {
     -ms-grid-columns: 1fr;
@@ -1676,6 +1679,9 @@ template {
   }
   .footer__tittle--mobile {
     margin-bottom: 20px;
+  }
+  .activity__item {
+    height: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */
