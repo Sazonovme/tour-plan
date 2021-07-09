@@ -240,3 +240,45 @@
             width: 100%
             left: 0
             object-fit: cover
+@media (max-width: 576px)
+    .reviews
+        &-slider
+            &__button
+                &--mobile
+                    &_prev
+                        top: 45px
+                        left: 23%
+                    &_next
+                        top: 45px
+                        right: 25%
+            &__item
+                width: 95%
+                height: 340px
+            &__text
+                width: 80%
+    .footer
+        &-wrapper
+            grid-template-columns: 1fr
+            grid-row-gap: 45px
+        &__logo
+            grid-row: 1 
+        &__social
+            &-network
+                grid-row: 2 
+                flex-direction: column
+        &__categories
+            grid-row: 5
+        &__contact
+            &-details
+                grid-row: 6
+        &__information
+            grid-row: 4
+        &__legal
+            grid-row: 3
+        &__form
+            grid-row: 7
+        &__input
+            flex-basis: 100%
+        &__tittle
+            &--mobile
+                margin-bottom: 20px
