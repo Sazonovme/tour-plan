@@ -1683,5 +1683,10 @@ template {
   .activity__item {
     height: 200px;
   }
+  .hotel-slider__img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 /*# sourceMappingURL=style.css.map */
