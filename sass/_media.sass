@@ -109,17 +109,35 @@
         width: 92%
     body
         padding-top: 98px
+    .user
+        &__avatar
+            margin: 0 0 10px 0
+        &__name
+            &--light
+                color: $light
+                font-weight: normal
+                font-size: 14px
+                line-height: 18px
     .navbar
         &-top
             &__search,&__user
                 &--mobile
                     &_hidden
                         display: none
+                    &_active
+                        display: flex
+                        flex-direction: column
+                        justify-content: center
+                        color: $light
         &-menu
+            &__link
+                font-weight: bold
+                line-height: 15px
             &__item
                 &--mobile
                     &_active
                         display: flex
+                        flex-direction: column
         &-bot
             display: none
             position: fixed
@@ -203,7 +221,7 @@
             font-size: 22px
         &-slider
             &__item
-                width: 480px
+                width: 460px
                 height: 320px
             &__text
                 width: 380px
