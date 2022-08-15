@@ -1,2 +1,2 @@
 # tour-plan
-Practice git with course GloAcademy 
+Practice coding and git by humself
